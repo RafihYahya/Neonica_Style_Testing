@@ -2,9 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html{
-    background-color: rgb(15, 15, 15);
 
 }
+
+body{
+    /*background-color: rgb(15, 15, 15); */
+    background: linear-gradient(180deg, rgb(15, 15, 15), #c100da18);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#big {
+    font-size: 85px;
+}
+
+#neonica{
+font-weight:600;
+}
+
+
+li{
+    font-weight: 600;
+}
+#svg{
+    background: linear-gradient(180deg, rgb(20, 20, 20), #c100da21);
+
+    /*background: linear-gradient(180deg, rgb(15, 15, 15), #c100da3d);*/
+
+}
+
+
+
