@@ -30,16 +30,38 @@ font-weight:600;
 li{
     font-weight: 600;
 }
-#svg{
+#svg {
     background: linear-gradient(180deg, rgb(20, 20, 20), #c100da21);
 
     /*background: linear-gradient(180deg, rgb(15, 15, 15), #c100da3d);*/
 
 }
 
+#gridneon{
+    background: linear-gradient(180deg, rgb(20, 20, 20), #c100da21);
+
+}
+
+#info{
+    background: linear-gradient(180deg, rgba(15, 15, 15, 0), #c100da18);
+
+}
+
+#infor1{
+    margin-top: -10px;
+}
 
 p > span {
     font-weight: bold;
 }
 
 
+
+#infoh1{
+    font-size: 72px;
+}
+
+
+#padneg {
+    margin-top: -10px;
+}
