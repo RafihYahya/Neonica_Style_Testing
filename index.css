@@ -12,7 +12,12 @@ body{
     background-size: cover;
     height: 100vh;
 }
-
+#hero{
+    height:88vh;
+}
+#hero_contain{
+   padding-top: 25vh;
+}
 #big {
     font-size: 85px;
 }
@@ -32,5 +37,9 @@ li{
 
 }
 
+
+p > span {
+    font-weight: bold;
+}
 
 

@@ -160,3 +160,13 @@ box-shadow: 0 0 .2rem #fff,
   0 0 30px #9c27b0,
   0 0 40px #9c27b0;
 }
+.neon-text3 {
+  color: #fff;
+  text-shadow: 
+  0 0 1px #fff,
+  0 0 3px #fff,
+  0 0 5px #fff,
+  0 0 10px #9c27b0,
+  0 0 13px #9c27b0,
+  0 0 18px #9c27b0;
+}
