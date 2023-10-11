@@ -39,6 +39,12 @@ li{
 
 #gridneon{
     background: linear-gradient(180deg, rgb(20, 20, 20), #c100da21);
+    
+}
+
+#gridneon1{
+    
+    background: linear-gradient(180deg, rgb(20, 20, 20), #c100da18);
 
 }
 
