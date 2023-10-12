@@ -52,7 +52,7 @@ li{
 }
 
 #info{
-    background: linear-gradient(180deg, rgba(15, 15, 15, 0), #c100da18);
+    background: linear-gradient(180deg, rgba(15, 15, 15, 0.025), #c100da18);
 
 }
 
