@@ -164,6 +164,21 @@ box-shadow: 0 0 .2rem #fff,
                 0 0 2.8rem #bc13fe,
                 inset 0 0 1.3rem #bc13fe;
     }
+    .neon-border3noflick33 {
+
+      border-bottom: 0.2rem solid #fff;
+      border-top: 0.35rem solid #fff;
+      border-left: 0.15rem solid #fff;
+      border-right: 0.15rem solid #fff;
+    
+    
+      box-shadow: 0 0 .2rem #fff,
+                  0 0 .2rem #fff,
+                  0 0 2rem #ba10fd,
+                  0 0 0.8rem #b910fc,
+                  0 0 2.8rem #bc13fe,
+                  inset 0 0 1.3rem #bc13fe;
+      }
     .neon-border3noflick4 {
 
       border-bottom: 0.2rem solid #fff;
