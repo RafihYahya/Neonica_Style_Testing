@@ -8,15 +8,31 @@
 
 }
 
+@keyframes hueRotate {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(40deg);
+    }
+  }
+
 body{
     /*background-color: rgb(15, 15, 15); */
-    background: linear-gradient(180deg, rgb(15, 15, 15), #c100da18);
+    animation: hueRotate 25s infinite alternate;
+
+    background: linear-gradient(180deg, rgb(15, 15, 15), #c100da21);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+
 }
 #hero{
     height:88vh;
+    background: linear-gradient(180deg, rgb(15, 15, 15), #72008121);
+
+
+
 }
 #hero_contain{
    padding-top: 25vh;
@@ -85,8 +101,7 @@ p {
 }
 #work{
     position: relative;
-    background: linear-gradient(180deg, rgba(15, 15, 15, 0), #c100da18);
-
+    background: linear-gradient(180deg, rgba(15, 15, 15, 0.025), #c100da18);
 }
 
 #cube1{

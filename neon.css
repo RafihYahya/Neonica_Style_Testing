@@ -50,6 +50,20 @@ box-shadow:
       0 0 150px rgb(179, 21, 171);
       font-size: 26px;
   }
+  .neon-textpink {
+    animation: pulsate 2s infinite alternate;     
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px  #f713fe,
+      0 0 80px  #f713fe,
+      0 0 90px  #f713fe,
+      0 0 100px #f713fe,
+      0 0 150px #f713fe;
+      font-size: 26px;
+  }
 
   @keyframes pulsate {
     100% {
@@ -134,6 +148,16 @@ box-shadow: 0 0 .2rem #fff,
             0 0 2.8rem #bc13fe,
             inset 0 0 1.3rem #bc13fe;
 }
+.neon-border3noflickpink {
+
+  border-bottom: 0.2rem solid #fff;
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #f713fe,
+              0 0 0.8rem #f713fe,
+              0 0 2.8rem #f713fe,
+              inset 0 0 1.3rem #f713fe;
+  }
 .neon-border3noflick2 {
 
   border-bottom: 0.2rem solid #fff;
@@ -149,6 +173,21 @@ box-shadow: 0 0 .2rem #fff,
               0 0 2.8rem #bc13fe,
               inset 0 0 1.3rem #bc13fe;
   }
+  .neon-border3noflick2pink {
+
+    border-bottom: 0.2rem solid #fff;
+    border-top: 0.4rem solid #fff;
+    border-left: 0.1rem solid #fff;
+    border-right: 0.1rem solid #fff;
+  
+  
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #f713fe,
+                0 0 0.8rem #f713fe,
+                0 0 2.8rem #f713fe,
+                inset 0 0 1.3rem #f713fe;
+    }
   .neon-border3noflick3 {
 
     border-bottom: 0.2rem solid #fff;
