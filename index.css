@@ -76,3 +76,63 @@ p {
 #padneg {
     margin-top: -10px;
 }
+
+#padneg2 {
+    margin-top: -75vh;
+}
+#padneg3 {
+    margin-top: 50vh;
+}
+#work{
+    position: relative;
+}
+
+#cube1{
+    top: 50%;
+  transform: translateY(-400%);
+
+  right: 50%;
+  position: absolute;
+}
+
+#cube2{
+    top: 50%;
+  transform: translateY(-250%);
+  right: 50%;
+  position: absolute;
+}
+#cube3{
+    top: 50%;
+  transform: translateY(-100%);
+  right: 50%;
+  position: absolute;
+}
+#cube4{
+    top: 50%;
+  transform: translateY(50%);
+  right: 50%;
+  position: absolute;
+}
+#cube5{
+    top: 50%;
+  transform: translateY(200%);
+  right: 50%;
+  position: absolute;
+}
+#cube6{
+    top: 50%;
+  transform: translateY(350%);
+  right: 50%;
+  position: absolute;
+}
+
+#final {
+    position: relative;
+}
+#centerme {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 115px;
+}
