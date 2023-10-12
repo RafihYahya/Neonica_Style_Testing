@@ -85,6 +85,8 @@ p {
 }
 #work{
     position: relative;
+    background: linear-gradient(180deg, rgba(15, 15, 15, 0), #c100da18);
+
 }
 
 #cube1{
@@ -128,6 +130,8 @@ p {
 
 #final {
     position: relative;
+    background: linear-gradient(180deg, rgba(15, 15, 15, 0), #c100da18);
+
 }
 #centerme {
     position: absolute;
@@ -135,4 +139,25 @@ p {
     top: 50%;
     transform: translate(-50%,-50%);
     font-size: 115px;
+}
+
+
+
+
+#anima{
+    position: absolute;
+    left: 5%;
+    bottom: 50%;
+}
+
+#anima2{
+    position: absolute;
+    right: 5%;
+    bottom: 50%;
+}
+
+#anima3{
+    position: absolute;
+    left: 50%;
+    bottom: 55%;
 }

@@ -16,6 +16,7 @@
 
 }
 
+
 .neon-border{
     border-bottom: 2px solid rgb(194, 39, 233); /* The border */
 
@@ -336,13 +337,12 @@ box-shadow: 0 0 .2rem #fff,
 }
 
 .neon-border3noflicktr {
-
   
     width: 0; 
     height: 0; 
 
-  border-bottom: 5vh  solid #fff;
-  border-top: 5vh solid #fff;
+  border-bottom: 10vh  solid #fff;
+  border-top: 10vh solid #fff;
   border-right: 5vh solid #fff;
 
 
@@ -354,5 +354,26 @@ box-shadow: 0 0 .2rem #fff,
               inset 0 0 1.3rem #9c08d6;
   }
 
+
+
+
+
+  .neon-border3noflickcircle {
+
+    width: 5vh; 
+    height: 5vh; 
+    border-radius: 50%;
+
+  border: 3vh  solid #fff;
+ 
+
+
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #a407e2,
+              0 0 0.8rem #a009db,
+              0 0 2.8rem #a60be4,
+              inset 0 0 1.3rem #9c08d6;
+  }
 
   
