@@ -7,13 +7,13 @@
 
 .neon-blur-bg {
     background-color: rgba(44, 0, 39, 0.5);
-    background: linear-gradient(90deg, rgba(44,0,40,0.5) 0%, rgba(166,18,166,0.5) 48%, rgba(44,0,44,0.5) 100%);
+    /* background: linear-gradient(90deg, rgba(44,0,40,0.1) 0%, rgba(166,18,166,0.1) 48%, rgba(44,0,44,0.1) 100%); */
     -webkit-box-reflect: below 1px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.15));
 
-     /* Semi-transparent background */
+     /* Semi-transparent background 
     -webkit-backdrop-filter: blur(10px); /* For Safari */
-    backdrop-filter: blur(10px); /* Standard syntax */
-
+     /* backdrop-filter: blur(10px); /* Standard syntax */
+    
 }
 
 
